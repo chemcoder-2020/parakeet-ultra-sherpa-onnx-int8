@@ -1,0 +1,34 @@
+parakeet-ultra-sherpa-onnx-int8
+===============================
+
+A GitHub mirror of the Hugging Face repo:
+
+    https://huggingface.co/tpmaerk/parakeet-ultra-sherpa-onnx-int8
+
+Model lineage (all CC BY 4.0):
+
+  - nvidia/parakeet-tdt-0.6b-v3
+        Base model. Copyright NVIDIA Corporation.
+        https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+
+  - moondream/parakeet-ultra
+        Retrain of the above ("Parakeet Ultra"). Copyright Moondream.
+        https://huggingface.co/moondream/parakeet-ultra
+
+  - tpmaerk/parakeet-ultra-sherpa-onnx-int8
+        Format conversion of the Ultra weights to the sherpa-onnx
+        nemo_transducer int8 bundle (encoder/decoder/joiner .int8.onnx +
+        tokens.txt) and the accuracy/speed measurements. Converted and
+        measured by Tim-Patrick "tpmaerk" Märk.
+        https://huggingface.co/tpmaerk/parakeet-ultra-sherpa-onnx-int8
+
+This mirror (github.com/chemcoder-2020/parakeet-ultra-sherpa-onnx-int8)
+contains byte-identical copies of the model files from the source repo
+above. Checksums in README.md / checksums.txt were verified against the
+values published in the source repo after download. The upstream model
+card is preserved verbatim in SOURCE-CARD.md.
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+You must give appropriate credit to NVIDIA, Moondream, and tpmaerk, provide
+a link to the license, and indicate if changes were made. No additional
+restrictions are imposed by this mirror.
